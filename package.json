@@ -1,0 +1,25 @@
+{
+	"name": "Pokemon-Raid-Helper",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server/server.js",
+	"scripts": {
+		"start": "node server/server.js --ignore client",
+		"start:prod": "NODE_ENV=production node server/server.js",
+		"start:dev": "NODE_ENV=development node server/server.js --ignore client",
+		"install": "cd server && npm i && cd ../client && npm i",
+		"seed": "cd server && npm run seed",
+		"build": "cd client && npm run build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@apollo/server": "^4.7.1",
+		"autocomplete.js": "^0.38.1",
+		"antd": "^5.9.0",
+		"express": "^4.17.2",
+		"graphql": "^16.6.0",
+		"mongoose": "^7.0.2"
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"currentList": [
+		{
+			"id": "MANECTRIC",
+			"types": ["Electric"],
+			"weather": ["rain"]
+		},
+
+		{
+			"id": "CELESTEELA",
+			"types": ["Steel", "Flying"],
+			"weather": ["windy", "snow"]
+		},
+		{
+			"id": "KARTANA",
+			"types": ["Grass", "Steel"],
+			"weather": ["sunny", "snow"]
+		},
+
+		{
+			"id": "MACHAMP",
+			"types": ["Fighting"],
+			"weather": ["cloudy"]
+		},
+		{
+			"id": "CAMERUPT",
+			"types": ["Fire", "Ground"],
+			"weather": ["sunny"]
+		},
+		{
+			"id": "METAGROSS",
+			"form": "METAGROSS",
+			"types": ["Steel", "Psychic"],
+			"weather": ["windy", "snow"]
+		},
+		{
+			"id": "TURTONATOR",
+			"form": "TURTONATOR",
+			"types": ["Fire", "Dragon"],
+			"weather": ["sunny", "windy"]
+		},
+		{
+			"id": "UNOWN",
+			"form": "UNOWN",
+			"types": ["Psychic"],
+			"weather": ["windy"]
+		}
+	]
+}

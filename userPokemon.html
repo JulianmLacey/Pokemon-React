@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Raid Battle App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="home-button">Home</a>
+        <h1 class="title">Pokémon Raid Battle App</h1>
+        <a href="login.html" class="login-button">Sign Up / Login</a>
+    </div>
+    
+    <div class="picture-box">
+        
+        <img src="place holder" alt="">
+    </div>
+    <div class="content">
+        <h2>user pokemon Stats</h2>
+        <p>
+           this is a placed holder for the users selected pokemon
+        </p>
+        <button class="proceed-button">Proceed to Search Page</button>
+        <script>
+           
+            const proceedButton = document.querySelector(".proceed-button");
+        
+            proceedButton.addEventListener("click", function() {
+              
+                const destinationUrl = "enter.html"; 
+        
+                
+                window.location.href = destinationUrl;
+            });
+        </script>
+    </div>
+</body>
+</html>
